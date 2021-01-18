@@ -4,14 +4,14 @@ module.exports = {
 	entry: './src/js/app.ts',
 	devtool: 'inline-source-map',
 	output: {
-		path: __dirname + "/dist",
+		path: __dirname + "/docs",
 		filename: "bundle.js",
 	},
 	resolve: {
 		extensions: ['.ts', '.tsx', '.js']
 	},
     devServer: {
-		contentBase: './dist'
+		contentBase: './docs'
 	},
 	module: {
 		rules: [
