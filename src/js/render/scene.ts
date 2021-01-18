@@ -289,7 +289,7 @@ export class MainMenuScene extends Scene {
         new Vector(config.width / 2 - 70, 300, 0),
         new Vector(150, 60, 0),
         () => {
-          window.location.href = "https://blog.c0nrad.io/posts/relaxation/";
+          window.location.href = "https://blog.c0nrad.io/posts/plasma-leak/";
         }
       )
     );
