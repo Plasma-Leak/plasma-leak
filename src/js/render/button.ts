@@ -1,8 +1,4 @@
-import { Level } from "../game/level";
-import { Func, Vector, VectorField } from "../calculus";
-import { Game } from "../game/game";
-import { PointCharge } from "../entity/point";
-import { config } from "../config/config";
+import { Vector } from "../calculus";
 
 export class Button {
   action: () => void;

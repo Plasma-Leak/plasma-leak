@@ -1,5 +1,5 @@
 import { Level } from "../game/level";
-import { Func, Vector, VectorField } from "../calculus";
+import { Vector } from "../calculus";
 import { Game } from "../game/game";
 import { PointCharge } from "../entity/point";
 import { EntityType } from "../entity/entity";

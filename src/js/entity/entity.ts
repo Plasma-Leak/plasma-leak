@@ -1,5 +1,4 @@
 import { Vector } from "../calculus/vector";
-import { VectorField } from "../calculus/vector_field";
 
 export enum EntityType {
   PointCharge,
@@ -30,6 +29,4 @@ export abstract class Entity {
   abstract contains(position: Vector): boolean;
 
   // abstract adjustForCollision(position: Vector): Vector;
-
-  // abstract field(): VectorField;
 }

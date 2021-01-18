@@ -1,6 +1,4 @@
 import { Vector } from "../calculus/vector";
-import { VectorField } from "../calculus/vector_field";
-import { Func } from "../calculus/func";
 import { Entity } from "./entity";
 
 export class PointCharge extends Entity {
