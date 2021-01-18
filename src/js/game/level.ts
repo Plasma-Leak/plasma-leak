@@ -52,12 +52,7 @@ export function loadLevel(i: number): Level {
       let l = new Level(
         1,
         [],
-        [
-          new Goal(
-            new Vector(config.width - 20, config.height - 100, 0),
-            new Vector(10, 50, 0)
-          ),
-        ]
+        [new Goal(new Vector(config.width - 20, 100, 0), new Vector(10, 50, 0))]
       );
       l.helpText = "Click 'Add Point' to bend the plasma beam";
       return l;

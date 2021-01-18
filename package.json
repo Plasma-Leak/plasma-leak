@@ -20,7 +20,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --mode=development",
-    "prod": "webpack --progress --mode=prod"
+    "prod": "webpack --progress --mode=production"
   },
   "author": "Stuart c0nrad Larsen",
   "license": "ISC"
